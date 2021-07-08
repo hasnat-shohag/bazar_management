@@ -1,0 +1,42 @@
+*,
+body{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.BazarManagement{
+    margin: 20px 0px;
+    padding: 20px 30px;
+}
+.BazarManagement .row{}
+.BazarManagement .row .body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.BazarManagement .row .body .form_body{
+    width: 100%;
+    max-width: 400px;
+}
+.BazarManagement .row .body .form_body input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+}
+.BazarManagement .row .body .form_body button{
+    padding: 10px 20px;
+    margin: 5px;
+}
+.BazarManagement .row .body .result_body{
+    width: 100%;
+    max-width: 300px;
+}
+.BazarManagement .row .body .result_body p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: gray;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bazar Management</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="icon.png">
+    
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow">
+    
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="5000000">
+        <!-- <meta http-equiv="refresh" content="5"> -->
+    
+        <meta name="keywords" content="class one, html learn">
+        <meta name="description" content="you learn every things about html">
+        <meta name="author" content="mr abdul kuddus">
+        <meta name="copyrigth" content="www.mysite.com">
+        <meta name="revisit" content="5 days">
+    
+        <meta property="og:title" content="html learn" />
+        <meta property="og:site_name" content="adfas" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://" />
+        <meta property="og:image" content="http://" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="315" />
+    
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="http://">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="BazarManagement">
+        <div class="row">
+            <div class="body">
+                <div class="form_body">
+                    <form action="#" name="bazar_data">
+                        <input type="number" name="b_tk" placeholder="Take tk n">
+                        <input type="number" name="rice" placeholder="Bring rice n kg">
+                        <input type="number" name="dal" placeholder="Bring dal n kg">
+                        <input type="number" name="eggs" placeholder="Bring eggs n piece">
+                        <button type="button" onclick="BazarManage(+bazar_data.b_tk.value , +bazar_data.rice.value,+bazar_data.dal.value, +bazar_data.eggs.value)"> Go To Bazar </button>
+                          
+                    </form>
+                </div>
+                <div class="result_body">
+                    <h1>Give Feedback</h1>
+                    <p id="bazar"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
